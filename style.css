@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Kanit:wght@400;500;700&display=swap');
+
+/* font-family: 'Cormorant SC', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Wallpoet', cursive; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+
+.content {
+  width: 350px;
+  height: 280px;
+  background-color: #fff;
+  margin: 150px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.content h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: italic;
+  margin: 0;
+}
+
+.check-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.check-box input {
+  width: 80%;
+  height: 30px;
+  border-radius: 15px;
+  padding: 8px;
+  outline: none;
+  box-shadow: 0px 15px 20px #000;
+}
+
+.check-box input:focus {
+  outline: none;
+}
+
+.margin {
+  margin: 20px 0;
+}
+.reverse {
+  font-size: 2.2em;
+}
+
+.result {
+  font-size: 1.5em;
+  font-family: 'BhuTuka Expanded One', cursive;
+}
